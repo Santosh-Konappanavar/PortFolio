@@ -248,7 +248,7 @@ I would like to thank Microverse Team for this opportunity. I also want to ackno
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Santosh-Konappanavar/Portfolio-mobile-setup/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Santosh-Konappanavar/PortFolio/blob/main/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
