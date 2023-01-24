@@ -194,8 +194,8 @@ This feature is yet to be added
 
 > Describe 1 - 3 features you will add to the project.
 
--  Header and Footer will be added to the index .html file
--  The project would have a background image
+-  The Desktop version of the portfolio website would be created
+-  More Project sections would be added.
 -  The project would be deployed on live server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,6 +203,9 @@ This feature is yet to be added
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+  
+  
+ - 🤝 [AbdusSattar](https://github.com/AbdusSattar-70?tab=repositories)
 
 Contributions, issues, and feature requests are welcome!
 
