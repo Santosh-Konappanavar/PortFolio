@@ -628,6 +628,10 @@ textarea {
   background-color: #fbf8f7;
 }
 
+textarea::placeholder {
+  padding: 13px;
+}
+
 .btn {
   align-items: center;
   width: 35%;
