@@ -7,7 +7,7 @@
 
   body {
     background: #1c1a19;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
   }
 
   header {
@@ -324,7 +324,7 @@
     height: 20vh;
     margin: 2vh auto 0 auto;
     color: #fff;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -338,7 +338,7 @@
     gap: 1%;
     width: 80%;
     height: 10vh;
-    margin: 1.5vh  auto 0 5vw;
+    margin: 1.5vh auto 0 5vw;
     align-items: center;
   }
 
@@ -346,7 +346,7 @@
     height: 10vh;
     width: 90vw;
     background-color: #ff6b00;
-    margin: 1.5vh  auto 0 0;
+    margin: 1.5vh auto 0 0;
     display: flex;
     align-items: center;
     text-align: center;
@@ -513,5 +513,14 @@
     margin: auto;
     margin-top: 13%;
     border: 0.5px thin #fff;
+  }
+
+  .contact-form {
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-bottom: 17%;
   }
 }
