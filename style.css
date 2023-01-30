@@ -570,16 +570,16 @@ button {
   transition: all 1s ease;
 }
 
-button:enabled {
-  background: #f55800;
-}
-
 button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   cursor: pointer;
   transform: scale(1.1);
   color: #f55800;
+}
+
+button:enabled {
+  background: #f55800;
 }
 
 button:active {
