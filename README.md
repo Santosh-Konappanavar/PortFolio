@@ -182,7 +182,7 @@ This feature is yet to be added
 
 - GitHub: [@Santosh-Konappanavar](https://github.com/Santosh-Konappanavar/Portfolio-mobile-setup)
 - Twitter: [@SantoshKonapp1](https://twitter.com/SantoshKonappa1)
-- LinkedIn: [@Samntosh Konappanavar](https://www.linkedin.com/in/santosh-konappanavar/)
+- LinkedIn: [@Santosh Konappanavar](https://www.linkedin.com/in/santosh-konappanavar/)
 
 
 
