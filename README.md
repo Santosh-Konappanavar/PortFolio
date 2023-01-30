@@ -205,7 +205,6 @@ This feature is yet to be added
 ## 🤝 Contributing <a name="contributing"></a>
   
   
- - 🤝 [AbdusSattar](https://github.com/AbdusSattar-70?tab=repositories)
 
 Contributions, issues, and feature requests are welcome!
 
