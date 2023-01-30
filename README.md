@@ -110,8 +110,8 @@ This is a portfolio website designed to showcase my experiences. The website is 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-
 - [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,13 +156,16 @@ Install this project with:
 
 To run the project, execute the following command:
 
+
 - [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
+
 
 ### Run tests
 
 This website has been completed and deployed
 
 ### Deployment
+
 - [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
 
 
