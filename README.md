@@ -100,8 +100,6 @@ This is a portfolio website designed to showcase my experiences. The website is 
 ### Key Features <a name="key-features"></a>
 
 
-
-- It a has mobile view
 - It is responsive
 - CSS and HTML linters have been incorporated
 
@@ -113,7 +111,7 @@ This is a portfolio website designed to showcase my experiences. The website is 
 
 
 
-- [Live Demo Link](https://github.com/Newtayo/Hello-Microverse-Project/blob/main/index.html)
+- [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,15 +156,15 @@ Install this project with:
 
 To run the project, execute the following command:
 
-This project is still in development 
+- [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
 
 ### Run tests
 
-This feature is yet to be added
+This website has been completed and deployed
 
 ### Deployment
 
-This feature is yet to be added
+- [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
 
 
 
@@ -194,9 +192,7 @@ This feature is yet to be added
 
 > Describe 1 - 3 features you will add to the project.
 
--  The Desktop version of the portfolio website would be created
 -  More Project sections would be added.
--  The project would be deployed on live server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,7 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-I would like to thank Microverse Team for this opportunity. I also want to acknowledge the support I receiver from my learning partner Newtayo. My code reviewers have also been fantastic with the feedback they have provided me with.
+I would like to thank Microverse Team for this opportunity. I also want to acknowledge the support I receiver from my learning partners. My code reviewers have also been fantastic with the feedback they have provided me with.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,7 +237,7 @@ I would like to thank Microverse Team for this opportunity. I also want to ackno
 
   - Ensure you have node.js installed on your computer
 
-- Can clone repository using vscode
+- Can I clone repository using vscode
 
   - Ensure you are signed to your github account on vscode
 
