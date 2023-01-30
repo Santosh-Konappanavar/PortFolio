@@ -101,7 +101,6 @@ This is a portfolio website designed to showcase my experiences. The website is 
 
 
 
-- It a has mobile view
 - It is responsive
 - CSS and HTML linters have been incorporated
 
@@ -165,8 +164,9 @@ This project is still in development
 This feature is yet to be added
 
 ### Deployment
-
-This feature is yet to be added
+  
+  
+- [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
 
 
 
