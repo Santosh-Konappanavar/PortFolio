@@ -413,6 +413,7 @@ hr {
   color: #ff6b00;
   padding-top: 30%;
   letter-spacing: 0.37px;
+  margin-bottom: 12px;
 }
 
 .aboutsection {
@@ -424,7 +425,6 @@ hr {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  padding-top: 20%;
 }
 
 #aboutmetext {
@@ -537,7 +537,7 @@ hr {
   width: 90%;
   margin: auto;
   border: 0.5px thin #fff;
-  margin-top: 13%;
+  margin-top: 8%;
 }
 
 .contact-form {
@@ -577,7 +577,7 @@ button:hover {
   border: 1px solid #f55800;
   cursor: pointer;
   transform: scale(1.1);
-  color: white;
+  color: #f55800;
 }
 
 button:enabled {
@@ -1092,6 +1092,10 @@ textarea::placeholder {
   .contact-form form {
     flex: 2;
     margin-left: 4%;
+  }
+
+  .divider {
+    margin-top: 0%;
   }
 
   .social_navigation.desk {
