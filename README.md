@@ -60,7 +60,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖  Portoflio Website Mobile Set <a name="about-project"></a>
 
-> Description of the Project
 
 This is a portfolio website designed to showcase my experiences. The website is built using HTML and CSS. Also for code uniformity. Microverse linters have been incorporated into the code
 
@@ -72,7 +71,6 @@ This is a portfolio website designed to showcase my experiences. The website is 
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Description of project tech stack 
 
 <details>
   <summary>Mark up Language</summary>
@@ -192,7 +190,6 @@ This website has been completed and deployed
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 -  More Project sections would be added.
 
@@ -230,9 +227,8 @@ I would like to thank Microverse Team for this opportunity. I also want to ackno
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ  <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - When I run the command npm init -y, it throws an error  
 
