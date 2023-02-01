@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Santosh's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,6 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -32,10 +32,10 @@
           <li class ="desktopitem"><a class="desktoptext" href=""> Portfolio</a> </li>
           <li class ="desktopitem"> <a class="desktoptext" href=""> About</a></li>
           <li class ="desktopitem"> <a class="desktoptext" href=""> Contact </a></li>
-          <li class ="desktopitem" id="mail"> <a href=""><img src="image/Icon - Mail.png" /></a></li>
+          <li class ="desktopitem" id="mail"> <a href=""><img src="image/Icon - Mail.png" alt="Email icon"/></a></li>
           <li class="union">
             <button class="dropdown" type="submit">
-              <img src="image/Union.png" />
+              <img src="image/Union.png" alt="submit" />
             </button>
           </li>
         </ul>
@@ -59,24 +59,24 @@
           <ul class="social_navigation">
             <li class="item">
               <a href="https://github.com/Santosh-Konappanavar"
-                ><img src="image/Icon -GitHub.png"
+                ><img src="image/Icon -GitHub.png" alt="Github"
               /></a>
             </li>
             <li class="item">
               <a href="https://www.linkedin.com/in/santosh-konappanavar/"
-                ><img id = "iconlinkedin"src="image/linkedin.png"
+                ><img id = "iconlinkedin"src="image/linkedin.png" alt="Linkedin"
               /></a>
             </li>
             <li class="item">
-              <a href="https://angel.co/profile/edit/overview"><img src="image/Icon - Angelist.png" /></a>
+              <a href="https://angel.co/profile/edit/overview"><img src="image/Icon - Angelist.png" alt="angel" /></a>
             </li>
             <li class="item">
               <a href="https://twitter.com/SantoshKonappa1"
-                ><img src="image/Icon - Twitter.png"
+                ><img src="image/Icon - Twitter.png" alt="twitter"
               /></a>
             </li>
             <li class="item">
-              <a href="https://medium.com/@ssk21m"><img src="image/Icon - Medium.png" /></a>
+              <a href="https://medium.com/@ssk21m"><img src="image/Icon - Medium.png" alt="medium"/></a>
             </li>
           </ul>
         </nav>
@@ -91,7 +91,7 @@
       </div>
 
       <div id="project1">
-        <img id="placeholder" src="image/Img Placeholder.png" />
+        <img id="placeholder" src="image/Img Placeholder.png" alt="Placeholder image"/>
         <div class="project1container">
         <h2 id="project1text">Multi-Post Stories</h2>
         <p id="project1supporttext">
@@ -355,38 +355,41 @@
         chat please get in touch.
       </p>
       <form class="form_details" action="https://formspree.io/f/xoqzvwya" method="POST">
-        <input type="text" name="username" placeholder="Full name" maxlength="30" required/>
+        <label for="username"></label>
+        <input type="text" name="username" placeholder="Full name" maxlength="30" required id="username"/>
 
-        <input type="email"   name="email" placeholder="Email address" required/>
+        <label for="email"></label>
+        <input type="email"   name="email" placeholder="Email address" required id="email"/>
 
-        <textarea name="message" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
+        <label for="message"></label>
+        <textarea name="message" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required id="message"></textarea>
 
         <button class="btn" type="submit" name="submit">Get in touch</button>
       </form>
     </section>
-    <hr>
+    <hr class="divider">
     <footer class="footer">
       <ul class="social_navigation desk">
         <li class="item">
           <a href="https://github.com/Santosh-Konappanavar"
-            ><img src="image/github.png"
+            ><img src="image/github.png" alt="github"
           /></a>
         </li>
         <li class="item">
           <a href="https://www.linkedin.com/in/santosh-konappanavar/"
-            ><img src="image/Icon - Linkedin.png"
+            ><img src="image/Icon - Linkedin.png" alt="Linkedin"
           /></a>
         </li>
         <li class="item">
-          <a href="https://angel.co/profile/edit/overview"><img src="image/Icon - Angelist dark.png" /></a>
+          <a href="https://angel.co/profile/edit/overview"><img src="image/Icon - Angelist dark.png" alt="Angelist"/></a>
         </li>
         <li class="item">
           <a href="https://twitter.com/SantoshKonappa1"
-            ><img src="image/Icon - Twitter dark.png"
+            ><img src="image/Icon - Twitter dark.png" alt="Twitter"
           /></a>
         </li>
         <li class="item">
-          <a href="https://medium.com/@ssk21m"><img src="image/Icon - Medium dark.png" /></a>
+          <a href="https://medium.com/@ssk21m"><img src="image/Icon - Medium dark.png" alt="Medium" /></a>
         </li>
       </ul>
       <div class="liner"></div>
