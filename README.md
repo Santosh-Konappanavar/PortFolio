@@ -110,6 +110,8 @@ This is a portfolio website designed to showcase my experiences. The website is 
 
 - [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
 
+- Click here to see [loom video](https://www.loom.com/share/3174f93cb3414ca390828e69afc0a749)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
