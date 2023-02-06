@@ -45,6 +45,10 @@ button.dropdown.active {
   z-index: 5;
 }
 
+.menu-items a {
+  text-decoration: none;
+}
+
 .menu-items {
   display: block;
   color: #fff5e1;
@@ -54,10 +58,6 @@ button.dropdown.active {
   font-weight: 700;
   font-size: 32px;
   align-items: center;
-  text-decoration: none;
-}
-
-.menu-items a {
   text-decoration: none;
 }
 
