@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 header {
@@ -129,7 +129,7 @@ h3 {
   background: #1c1a19;
   width: 100%;
   height: 90vh;
-  background-image: url('image/illustration-header-mobile.png');
+  background-image: url("image/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -320,7 +320,7 @@ hr {
   width: 90vw;
   height: 75vh;
   margin: 2.5vh auto;
-  background-image: url('image/Img\ Placeholder\ \(3\).png');
+  background-image: url("image/Img\ Placeholder\ \(3\).png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 16vh;
@@ -343,7 +343,7 @@ hr {
   height: 20vh;
   margin: 2vh auto 0 auto;
   color: #fff;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -397,7 +397,7 @@ hr {
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-  background-image: url('image/illustration-about-me-mobile.png');
+  background-image: url("image/illustration-about-me-mobile.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   padding: 5% 5% 50% 5%;
@@ -483,7 +483,7 @@ hr {
 }
 
 #first::before {
-  content: url('image/Rectangle\ 55.png');
+  content: url("image/Rectangle\ 55.png");
   margin-left: 2vw;
 }
 
@@ -492,12 +492,12 @@ hr {
 }
 
 #second::before {
-  content: url('image/Rectangle\ 56\ \(1\).png');
+  content: url("image/Rectangle\ 56\ \(1\).png");
   padding-left: 5vw;
 }
 
 #third::before {
-  content: url('image/Rectangle\ 57.png');
+  content: url("image/Rectangle\ 57.png");
   padding-left: 2vw;
 }
 
@@ -594,7 +594,7 @@ button:disabled {
 }
 
 .contact-form p {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -667,7 +667,7 @@ textarea::placeholder {
   .desktoptext {
     color: #fff;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
   }
@@ -737,7 +737,7 @@ textarea::placeholder {
     width: 100%;
     margin: 0;
     font-size: 2.5vw;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
@@ -748,7 +748,7 @@ textarea::placeholder {
     font-weight: 400;
     font-size: 1.9vw;
     line-height: 32px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
@@ -796,7 +796,7 @@ textarea::placeholder {
   }
 
   .text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
   }
@@ -836,7 +836,7 @@ textarea::placeholder {
     width: 80%;
     padding-bottom: auto;
     font-size: 1.3vw;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     color: #091e42;
     font-weight: 600;
@@ -945,7 +945,7 @@ textarea::placeholder {
     font-weight: 150;
     font-size: 1.3vw;
     line-height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
@@ -974,7 +974,7 @@ textarea::placeholder {
     font-size: 1.2vw;
     line-height: 20px;
     background-color: #5b5957;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
@@ -987,7 +987,7 @@ textarea::placeholder {
 
   .dashboardtext.web {
     padding-bottom: 2.5%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
@@ -1033,7 +1033,7 @@ textarea::placeholder {
     font-size: 1.5vw;
     line-height: 24px;
     color: #f4f5f7;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 
@@ -1063,7 +1063,7 @@ textarea::placeholder {
   .lang {
     width: 10%;
     font-size: 3vw;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
   }
@@ -1084,7 +1084,7 @@ textarea::placeholder {
     margin-top: -1.3%;
     font-size: 2.3vw;
     text-align: left;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
   }
@@ -1118,7 +1118,7 @@ textarea::placeholder {
 
   .list {
     padding-bottom: 2%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
   }
 }
