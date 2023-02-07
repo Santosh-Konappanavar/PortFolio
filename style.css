@@ -695,6 +695,10 @@ textarea::placeholder {
     display: none;
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
   .desktopitem {
     flex: 0.8;
     display: flex;
