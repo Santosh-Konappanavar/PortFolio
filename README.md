@@ -67,6 +67,7 @@ This is a portfolio website designed to showcase my experiences. The website is 
 <ul>
   <li>HTML</li> 
   <li>CSS</li>
+  <li>Javascript</li>
 </ul>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -99,7 +100,7 @@ This is a portfolio website designed to showcase my experiences. The website is 
 
 
 - It is responsive
-- CSS and HTML linters have been incorporated
+- CSS, HTML and Javascript linters have been incorporated
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,6 +152,8 @@ Install this project with:
 <li> Run npx hint .
 <li> Run npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 <li> Run npx stylelint "**/*.{css,scss}"
+<li> Run npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+<li> Run npx eslint .
 
 ### Usage
 
