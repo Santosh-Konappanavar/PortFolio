@@ -19,6 +19,53 @@ header {
   background-color: #3c3a39;
 }
 
+.mobileMenu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #3c3a39;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  left: -100%;
+}
+
+.mobileMenu.active {
+  padding-top: 10%;
+  left: 0%;
+  top: 0%;
+}
+
+.immage.active {
+  content: url("image/Icon\ -\ Cancel.png");
+}
+
+button.dropdown.active {
+  position: fixed;
+  z-index: 5;
+}
+
+.menu-items {
+  display: block;
+  color: #fff5e1;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.menu-items a {
+  text-decoration: none;
+}
+
+.line {
+  width: 90%;
+  margin: 2% 5%;
+}
+
 .porfolio_container {
   display: flex;
   flex-direction: column;
@@ -645,6 +692,10 @@ textarea::placeholder {
 
 @media only screen and (min-width: 768px) {
   .union {
+    display: none;
+  }
+
+  .mobile-menu {
     display: none;
   }
 

@@ -157,10 +157,11 @@ Install this project with:
 
 ### Usage
 
+#### To run the project, execute the following command:
 To run the project, open the following link:
 
-
-- [PortFolio](https://santosh-konappanavar.github.io/PortFolio/)
+  - git clone
+  - npm install or npm init -y
 
 
 ### Run tests
