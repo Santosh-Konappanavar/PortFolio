@@ -1332,4 +1332,118 @@ small {
     font-family: "Inter", sans-serif;
     font-style: normal;
   }
+
+  .popclass {
+    display: flex;
+    width: 80vw;
+    height: 90vh;
+    margin: auto auto;
+    padding: 2%;
+  }
+
+  .popupHeader {
+    width: 70%;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 44px;
+  }
+
+  .popupLanguage .languageitem {
+    color: #3c3a39;
+    width: auto;
+    padding: 4%;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 16px;
+    margin-right: 2.5%;
+  }
+
+  .popuptextimagemenu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    height: 90%;
+  }
+
+  .popuptextimagemenu #imagepop {
+    height: 80vh;
+  }
+
+  .popclass #placeholder {
+    grid-column: 1/5;
+    grid-row: 2/6;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .popupLanguage {
+    display: flex;
+    width: 30%;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+    padding-bottom: 0%;
+  }
+
+  .popuptextbuttonmenu {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-left: 2%;
+  }
+
+  .popprojectsupporttext1 {
+    height: 70%;
+    white-space: wrap;
+    width: 100%;
+    margin-top: 1%;
+    flex: 3;
+    font-size: 1.2vw;
+    line-height: 30px;
+    color: #344563;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .popButton {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .popimg {
+    margin-left: 6%;
+  }
+
+  .img {
+    font-size: 1vw;
+  }
+
+  .popButton .img {
+    width: 45%;
+  }
+
+  .img > a {
+    color: white;
+    font-size: 1.3vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .error {
+    color: red;
+    margin-left: 5%;
+    display: flex;
+  }
 }
