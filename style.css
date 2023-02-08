@@ -40,6 +40,115 @@ header {
   content: url("image/Icon\ -\ Cancel.png");
 }
 
+.languageitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #8993a4;
+  height: 100%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10%;
+  justify-content: center;
+  grid-row: 1;
+}
+
+.popclass {
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 5%;
+  padding: 5%;
+  overflow: scroll;
+}
+
+.img {
+  margin-top: 3%;
+  padding: 3.5%;
+  background-color: #ff6b00;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+  width: 38vw;
+}
+
+.popupLanguage .languageitem {
+  color: #3c3a39;
+  width: auto;
+  padding: 4%;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 16px;
+  margin-right: 2.5%;
+}
+
+.popuptextimagemenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.popupLanguage {
+  width: 60vw;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popuptextbuttonmenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.popButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+#remove {
+  border: none;
+  right: 10%;
+  position: fixed;
+  width: 10%;
+  background-color: transparent;
+}
+
+.popprojectsupporttext1 {
+  width: 100%;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 24px;
+  color: #344563;
+  text-align: justify;
+  margin-top: 5%;
+}
+
+.popupHeader {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.75rem;
+}
+
 button.dropdown.active {
   position: fixed;
   z-index: 5;
@@ -82,10 +191,6 @@ button.dropdown.active {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-}
-
-.desktopitem {
-  display: none;
 }
 
 .dropdown {
@@ -132,6 +237,10 @@ button.dropdown.active {
   height: 80%;
   background: #3c3a39;
   margin: auto 0;
+}
+
+.desktopitemheader {
+  display: none;
 }
 
 .primary {
@@ -234,9 +343,15 @@ h3 {
   color: #fff;
 }
 
+.error {
+  color: red;
+  display: flex;
+  margin-left: 8%;
+}
+
 .worksection {
   width: 100vw;
-  height: 600%;
+  height: 500%;
   background-color: #fff;
   display: grid;
   grid-template-columns: 100%;
@@ -244,6 +359,7 @@ h3 {
   margin: 0;
   padding: 0;
   gap: 0;
+  border: 1px solid red;
 }
 
 #worksectionheading {
@@ -255,7 +371,7 @@ h3 {
   align-items: center;
   color: #1c1a19;
   grid-row: 1/5;
-  padding-top: 30%;
+  padding-top: 25%;
 }
 
 hr {
@@ -326,20 +442,6 @@ hr {
   width: 70%;
 }
 
-.languageitem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border: 1px solid #8993a4;
-  width: 14vw;
-  height: 100%;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 10%;
-  justify-content: center;
-}
-
 #bootstrap {
   width: 24vw;
 }
@@ -389,9 +491,10 @@ hr {
   height: 20vh;
   margin: 2vh auto 0 auto;
   color: #fff;
-  font-family: "Crete Round", serif;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 4vw;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
@@ -400,8 +503,8 @@ hr {
   display: grid;
   grid-template-columns: auto auto auto;
   list-style: none;
-  gap: 1%;
-  width: 80%;
+  gap: 4%;
+  width: 70%;
   height: 10vh;
   margin: 1.5vh auto 0 5vw;
   align-items: center;
@@ -428,7 +531,6 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 14vw;
   height: 5vh;
   justify-content: center;
   color: white;
@@ -459,7 +561,6 @@ hr {
   color: #ff6b00;
   padding-top: 30%;
   letter-spacing: 0.37px;
-  margin-bottom: 12px;
 }
 
 .aboutsection {
@@ -480,12 +581,11 @@ hr {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin-bottom: 5%;
 }
 
-.list3 {
+/* .list3 {
   padding-top: 13%;
-}
+} */
 
 .getresumebutton {
   display: flex;
@@ -509,7 +609,7 @@ hr {
   align-content: center;
   justify-content: center;
   margin: 20vh auto 0 auto;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 32px;
   line-height: 44px;
   list-style: none;
@@ -550,10 +650,11 @@ hr {
 .listitem {
   width: 50%;
   height: 60vh;
-  margin: 0 auto 5% auto;
+  margin: 0 auto 5% 30%;
   list-style: none;
   display: flex;
   flex-direction: column;
+  font-size: 22px;
 }
 
 #first {
@@ -566,9 +667,8 @@ hr {
   color: #fff;
   padding-top: 5%;
   padding-bottom: 10%;
-  font-weight: normal;
-  font-size: 18px;
-  padding-left: 15%;
+  font-weight: 100;
+  font-size: 20px;
 }
 
 #second {
@@ -582,10 +682,10 @@ hr {
 .divider {
   width: 90%;
   margin: auto;
-  margin-top: 8%;
 }
 
 .contact-form {
+  padding-bottom: 10%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -598,7 +698,6 @@ form label {
 
 .footer {
   background-color: white;
-  padding-bottom: 2%;
 }
 
 .footer .item {
@@ -670,13 +769,13 @@ input {
 
 textarea {
   width: 90%;
-  margin: 3% auto 5% auto;
+  margin: 3% auto 5% 3%;
   border: none;
   background-color: #fbf8f7;
 }
 
 textarea::placeholder {
-  padding: 13px;
+  padding: 10px;
 }
 
 .btn {
@@ -690,6 +789,29 @@ textarea::placeholder {
   font-size: 20px;
 }
 
+small {
+  display: none;
+}
+
+.img > a {
+  margin-top: 5%;
+  margin-left: 3%;
+  text-decoration: none;
+  color: white;
+}
+
+.backdrop {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+
 @media only screen and (min-width: 768px) {
   .union {
     display: none;
@@ -700,8 +822,10 @@ textarea::placeholder {
   }
 
   .desktopitem {
-    flex: 0.8;
+    width: 100vw;
     display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -801,7 +925,6 @@ textarea::placeholder {
   }
 
   .desktopproject1 {
-    /* height: fit-content; */
     width: 80%;
     margin: 5% auto 5% auto;
   }
@@ -837,8 +960,7 @@ textarea::placeholder {
   #project1 {
     display: flex;
     flex-direction: row;
-    margin: 0;
-    padding: 0;
+    padding: 1% 10% 10% 10%;
     width: 100%;
   }
 
@@ -885,7 +1007,8 @@ textarea::placeholder {
     font-family: "Inter", sans-serif;
     font-style: normal;
     color: #091e42;
-    font-weight: 600;
+    font-weight: 400;
+    margin-bottom: 5%;
   }
 
   #project1text {
@@ -900,7 +1023,6 @@ textarea::placeholder {
   .languageitem {
     padding: 2.5%;
     margin: 0;
-    width: 10%;
     height: 100%;
     color: #091e42;
     font-size: 1.3vw;
@@ -917,22 +1039,65 @@ textarea::placeholder {
     margin: 0;
   }
 
-  .desktopotherproject {
+  .otherproject {
     display: flex;
-    flex-wrap: wrap;
-    width: 80%;
+    flex-direction: column;
+    width: 30%;
     margin: 1% auto 10% auto;
     gap: 2%;
   }
 
-  .mobileotherproject {
+  small {
     display: none;
+  }
+
+  .otherprojectheading {
+    width: 90%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 44px;
+    padding-bottom: 3%;
+    margin-top: 20%;
+    height: 20%;
+  }
+
+  .project2language {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+    gap: 4%;
+    width: 70%;
+    height: 10vh;
+    padding-left: 5%;
+    align-items: center;
+  }
+
+  .otherprojecttext {
+    width: 90%;
+    color: #fff;
+    font-weight: 150;
+    font-size: 1.3vw;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
   }
 
   .projectdesktop {
     width: 30%;
     padding: 0;
     margin: 0;
+  }
+
+  #project2language {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+    gap: 4%;
+    width: 70%;
+    height: 10vh;
+    margin: 1.5vh auto 0 5%;
+    align-items: center;
   }
 
   .container {
@@ -944,7 +1109,7 @@ textarea::placeholder {
     background-position: center;
   }
 
-  .seeproject21 {
+  .seeproject2 {
     height: 15%;
     margin: 0;
     width: 100%;
@@ -1031,6 +1196,14 @@ textarea::placeholder {
     font-size: 2.6vw;
   }
 
+  .desktopitemheader {
+    flex: 0.8;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
   .dashboardtext.web {
     padding-bottom: 2.5%;
     font-family: "Inter", sans-serif;
@@ -1089,10 +1262,6 @@ textarea::placeholder {
     font-size: 1.5vw;
   }
 
-  .otherproject {
-    display: none;
-  }
-
   .holder {
     display: flex;
     flex-direction: column;
@@ -1140,10 +1309,6 @@ textarea::placeholder {
     margin-left: 4%;
   }
 
-  .divider {
-    margin-top: 0%;
-  }
-
   .social_navigation.desk {
     display: flex;
     flex-direction: row;
@@ -1156,6 +1321,7 @@ textarea::placeholder {
 
   .listitem {
     align-items: flex-start;
+    margin: 0 auto 5% auto;
   }
 
   #third {
@@ -1166,5 +1332,118 @@ textarea::placeholder {
     padding-bottom: 2%;
     font-family: "Inter", sans-serif;
     font-style: normal;
+  }
+
+  .popclass {
+    display: flex;
+    width: 80vw;
+    height: 90vh;
+    margin: auto auto;
+    padding: 2%;
+  }
+
+  .popupHeader {
+    width: 70%;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 44px;
+  }
+
+  .popupLanguage .languageitem {
+    color: #3c3a39;
+    width: auto;
+    padding: 4%;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 16px;
+    margin-right: 2.5%;
+  }
+
+  .popuptextimagemenu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    height: 90%;
+  }
+
+  .popuptextimagemenu #imagepop {
+    height: 80vh;
+  }
+
+  .popclass #placeholder {
+    grid-column: 1/5;
+    grid-row: 2/6;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .popupLanguage {
+    display: flex;
+    width: 30%;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+    padding-bottom: 0%;
+  }
+
+  .popuptextbuttonmenu {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-left: 2%;
+  }
+
+  .popprojectsupporttext1 {
+    height: 70%;
+    width: 100%;
+    margin-top: 1%;
+    flex: 3;
+    font-size: 1.2vw;
+    line-height: 30px;
+    color: #344563;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .popButton {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .popimg {
+    margin-left: 6%;
+  }
+
+  .img {
+    font-size: 1vw;
+  }
+
+  .popButton .img {
+    width: 45%;
+  }
+
+  .img > a {
+    color: white;
+    font-size: 1.3vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .error {
+    color: red;
+    margin-left: 5%;
+    display: flex;
   }
 }
