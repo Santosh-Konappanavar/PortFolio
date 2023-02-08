@@ -343,6 +343,12 @@ h3 {
   color: #fff;
 }
 
+.error {
+  color: red;
+  margin-left: 5%;
+  display: flex;
+}
+
 .worksection {
   width: 100vw;
   height: 500%;
@@ -1433,4 +1439,10 @@ small {
     display: flex;
     align-items: center;
   }
+
+  .error {
+    color: red;
+    margin-left: 5%;
+    display: flex;
+  } 
 }
