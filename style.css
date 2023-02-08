@@ -351,7 +351,7 @@ h3 {
 
 .worksection {
   width: 100vw;
-  height: 600%;
+  height: 500%;
   background-color: #fff;
   display: grid;
   grid-template-columns: 100%;
@@ -359,6 +359,7 @@ h3 {
   margin: 0;
   padding: 0;
   gap: 0;
+  border: 1px solid red;
 }
 
 #worksectionheading {
@@ -370,7 +371,7 @@ h3 {
   align-items: center;
   color: #1c1a19;
   grid-row: 1/5;
-  padding-top: 30%;
+  padding-top: 25%;
 }
 
 hr {
@@ -608,7 +609,7 @@ hr {
   align-content: center;
   justify-content: center;
   margin: 20vh auto 0 auto;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 32px;
   line-height: 44px;
   list-style: none;
@@ -649,10 +650,11 @@ hr {
 .listitem {
   width: 50%;
   height: 60vh;
-  margin: 0 auto 5% auto;
+  margin: 0 auto 5% 30%;
   list-style: none;
   display: flex;
   flex-direction: column;
+  font-size: 22px;
 }
 
 #first {
@@ -665,8 +667,8 @@ hr {
   color: #fff;
   padding-top: 5%;
   padding-bottom: 10%;
-  font-weight: 300;
-  font-size: 22px;
+  font-weight: 100;
+  font-size: 20px;
 }
 
 #second {
@@ -688,7 +690,6 @@ hr {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: white;
-  margin-bottom: 17%;
 }
 
 form label {
@@ -697,7 +698,6 @@ form label {
 
 .footer {
   background-color: white;
-  padding-bottom: 2%;
 }
 
 .footer .item {
@@ -769,13 +769,13 @@ input {
 
 textarea {
   width: 90%;
-  margin: 3% auto 5% auto;
+  margin: 3% auto 5% 3%;
   border: none;
   background-color: #fbf8f7;
 }
 
 textarea::placeholder {
-  padding: 13px;
+  padding: 10px;
 }
 
 .btn {
@@ -1321,6 +1321,7 @@ small {
 
   .listitem {
     align-items: flex-start;
+    margin: 0 auto 5% auto;
   }
 
   #third {
@@ -1402,7 +1403,6 @@ small {
 
   .popprojectsupporttext1 {
     height: 70%;
-    white-space: wrap;
     width: 100%;
     margin-top: 1%;
     flex: 3;

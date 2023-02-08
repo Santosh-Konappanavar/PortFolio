@@ -21,8 +21,8 @@ const project1Card = {
   text: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   technology: ['css', 'html', 'bootstrap', 'Ruby'],
   image: 'image/tenyears.png',
-  seelive: 'https://newtayo.github.io/Portfolio-Setup/',
-  seeSource: 'https://github.com/Newtayo/Portfolio-Setup',
+  seelive: 'https://santosh-konappanavar.github.io/PortFolio/',
+  seeSource: 'https://github.com/Santosh-Konappanavar/PortFolio',
 };
 // Object containing contents in the mobile version
 const mobileothercontent = [
@@ -32,8 +32,8 @@ const mobileothercontent = [
     technology: ['html', 'bootstrap', 'Ruby'],
     image: 'image/Website.png',
     sn: 0,
-    seelive: 'https://newtayo.github.io/Portfolio-Setup/',
-    seeSource: 'https://github.com/Newtayo/Portfolio-Setup',
+    seelive: 'https://santosh-konappanavar.github.io/PortFolio/',
+    seeSource: 'https://github.com/Santosh-Konappanavar/PortFolio',
   },
   {
     title: 'Website Protfolio ',
@@ -41,8 +41,8 @@ const mobileothercontent = [
     technology: ['html', 'bootstrap', 'Ruby'],
     image: 'image/Calculator.png',
     sn: 1,
-    seelive: 'https://newtayo.github.io/Portfolio-Setup/',
-    seeSource: 'https://github.com/Newtayo/Portfolio-Setup',
+    seelive: 'https://santosh-konappanavar.github.io/PortFolio/',
+    seeSource: 'https://github.com/Santosh-Konappanavar/PortFolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -50,8 +50,8 @@ const mobileothercontent = [
     technology: ['html', 'bootstrap', 'Ruby'],
     image: 'image/View.png',
     sn: 2,
-    seelive: 'https://newtayo.github.io/Portfolio-Setup/',
-    seeSource: 'https://github.com/Newtayo/Portfolio-Setup',
+    seelive: 'https://santosh-konappanavar.github.io/PortFolio/',
+    seeSource: 'https://github.com/Santosh-Konappanavar/PortFolio',
   },
   {
     title: 'Data Dashboard Healthcare',
@@ -59,8 +59,8 @@ const mobileothercontent = [
     technology: ['html', 'bootstrap', 'Ruby'],
     image: 'image/Website.png',
     sn: 3,
-    seelive: 'https://newtayo.github.io/Portfolio-Setup/',
-    seeSource: 'https://github.com/Newtayo/Portfolio-Setup',
+    seelive: 'https://santosh-konappanavar.github.io/PortFolio/',
+    seeSource: 'https://github.com/Santosh-Konappanavar/PortFolio',
   },
   {
     title: 'Website Protfolio',
@@ -68,8 +68,8 @@ const mobileothercontent = [
     technology: ['html', 'bootstrap', 'Ruby'],
     image: 'image/Calculator.png',
     sn: 4,
-    seelive: 'https://newtayo.github.io/Portfolio-Setup/',
-    seeSource: 'https://github.com/Newtayo/Portfolio-Setup',
+    seelive: 'https://santosh-konappanavar.github.io/PortFolio/',
+    seeSource: 'https://github.com/Santosh-Konappanavar/PortFolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -77,8 +77,8 @@ const mobileothercontent = [
     technology: ['html', 'bootstrap', 'Ruby'],
     image: 'image/View.png',
     sn: 5,
-    seelive: 'https://newtayo.github.io/Portfolio-Setup/',
-    seeSource: 'https://github.com/Newtayo/Portfolio-Setup',
+    seelive: 'https://santosh-konappanavar.github.io/PortFolio/',
+    seeSource: 'https://github.com/Santosh-Konappanavar/PortFolio',
   },
 ];
 
